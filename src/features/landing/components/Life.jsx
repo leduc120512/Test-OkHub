@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "../../../Assets/css/life.css";
+import "../../../Assets/css/Life.css";
 
 // Các ảnh theo thứ tự (đúng 4 ảnh cho 4 mục)
 import life1 from "../../../Assets/img/life.png";               // nhân viên

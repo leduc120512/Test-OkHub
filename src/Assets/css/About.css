@@ -35,11 +35,13 @@
 .about-title {
     font-size: 46px;
     font-weight: 700;
+    margin-top: 30px;
 }
 
 .about-desc {
     margin: 20px 0;
     line-height: 1.6;
+    margin-top: 30px;
 }
 
 .about-btn {
@@ -49,10 +51,13 @@
     background: #2c2c6c;
     color: white;
     font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 25px;
 }
 
 .about-btn:hover {
     cursor: pointer;
+
 }
 
 /* mobile */
