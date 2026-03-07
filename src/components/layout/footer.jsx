@@ -9,7 +9,7 @@ function Footer() {
 
                 {/* LEFT */}
                 <div className="footer-left">
-                    <img className='footer-mark footer-mark1'  src={Mask_group} />
+
                     {/* LOGO */}
                     <div className="footer-logo">
                          <img src={logo} alt="" />
@@ -22,7 +22,6 @@ function Footer() {
 
                     {/* SUBSCRIBE */}
                     <div className="footer-subscribe">
-                        <img className='footer-mark footer-mark2'  src={Mask_group} />
 
                         <p className="subscribe-title">
                             ĐĂNG KÝ NHẬN THÔNG TIN TỪ AMI&M
@@ -46,7 +45,7 @@ function Footer() {
 
                 {/* MENU */}
                 <div className="footer-col">
-                    <img className='footer-mark footer-mark3'  src={Mask_group} />
+
                     <h4>KHÁM PHÁ</h4>
 
                     <ul>
@@ -106,8 +105,6 @@ function Footer() {
                 </div>
 
             </div>
-
-
 
             {/* BOTTOM */}
             <div className="footer-bottom">

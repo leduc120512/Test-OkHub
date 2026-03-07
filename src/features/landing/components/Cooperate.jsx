@@ -118,7 +118,7 @@ là chìa khóa giúp thế hệ trẻ phát triển toàn diện trong tương 
 
             changePartner(next);
 
-        }, 3000);
+        }, 2000);
 
         return () => clearInterval(interval);
 
