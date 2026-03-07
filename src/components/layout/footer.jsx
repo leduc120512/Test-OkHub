@@ -105,10 +105,10 @@ function Footer() {
                 </div>
 
             </div>
-            <img className='footer-mark footer-mark1'  src={Mask_group} />
-            <img className='footer-mark footer-mark2'  src={Mask_group} />
+            {/*<img className='footer-mark footer-mark1'  src={Mask_group} />*/}
+            {/*<img className='footer-mark footer-mark2'  src={Mask_group} />*/}
 
-            <img className='footer-mark footer-mark3'  src={Mask_group} />
+            {/*<img className='footer-mark footer-mark3'  src={Mask_group} />*/}
 
             {/* BOTTOM */}
             <div className="footer-bottom">

@@ -121,11 +121,23 @@
 
 @media (max-width: 768px) {
 
-    .about {
-        background-image: var(--bg-mobile);
-        height: 650px;
-    }
 
+    .about-layout2 {
+
+        bottom: -55px;
+        left: 0;
+        height: 200px;
+
+
+    }
+    .about-layout1 {
+
+        bottom: -71px;
+        left: 0;
+
+
+
+    }
     .about-overlay {
         background: linear-gradient(
                 180deg,

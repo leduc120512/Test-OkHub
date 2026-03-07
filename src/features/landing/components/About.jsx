@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "../../../Assets/css/About.css";
 import abdk from "../../../Assets/img/abdk.png";
-import aboutmobile from "../../../Assets/img/aboutmobile.png";
+import aboutmobile from "../../../Assets/img/Container.png";
 import RippleButton from "../../../components/common/Button";
 import imglayout from "../../../Assets/img/Vector 212.png";
 import imglayout2 from "../../../Assets/img/imglayout.png";
