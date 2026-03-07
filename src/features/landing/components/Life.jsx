@@ -67,7 +67,7 @@ function Life() {
                     <br />
                     cho những người đồng hành
                 </h2>
-                {/* Nếu bạn muốn thêm step indicator ở header thì để đây */}
+
 
             </div>
 
