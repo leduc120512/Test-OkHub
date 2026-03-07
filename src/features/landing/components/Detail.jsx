@@ -105,8 +105,9 @@ function Investment() {
                         <button className="circle-btn-more">
                             Tìm hiểu thêm →
                         </button>
-
+                        {/*<img src={circleMain} className='border-main-circle' />*/}
                     </div>
+
 
 
                 </div>

@@ -2,6 +2,9 @@
 import { useState, useEffect, useRef } from "react";
 import "../../../Assets/css/PartnerSection.css";
 
+import Unikho from "../../../Assets/img/Union (1).png";
+import Unikhomobile from "../../../Assets/img/uniun_mobile.png";
+
 /* PERSON IMAGE */
 import person1 from "../../../Assets/img/Avatar.png";
 import person2 from "../../../Assets/img/doitac2.png";
@@ -236,7 +239,8 @@ là chìa khóa giúp thế hệ trẻ phát triển toàn diện trong tương 
             {/* PARTNER LOGO */}
 
             <div className="partner-logo-wrapper">
-
+                <img className="partner-logo-wrapper-bg desktop_unium" src={Unikho}  />
+                <img className="partner-logo-wrapper-bg mobile_unium" src={Unikhomobile}  />
                 <div className="partner-logo-title">
                     <p>• ĐỐI TÁC TIÊU BIỂU</p>
                     <h3>ĐỒNG HÀNH CÙNG AMI&M</h3>
