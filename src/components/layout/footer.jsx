@@ -1,6 +1,6 @@
 import "../../Assets/css/Footer.css";
  import logo from "../../Assets/img/Logo.png";
-
+import Mask_group from "../../Assets/img/Mask_group.png";
 function Footer() {
     return (
         <footer className="footer">
@@ -105,7 +105,10 @@ function Footer() {
                 </div>
 
             </div>
+            <img className='footer-mark footer-mark1'  src={Mask_group} />
+            <img className='footer-mark footer-mark2'  src={Mask_group} />
 
+            <img className='footer-mark footer-mark3'  src={Mask_group} />
 
             {/* BOTTOM */}
             <div className="footer-bottom">

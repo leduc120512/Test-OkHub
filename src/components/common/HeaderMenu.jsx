@@ -4,6 +4,7 @@ import "../../Assets/css/MenuOverlay.css";
 import img1 from "../../Assets/img/IMGMENUOUTLINE.jpg";
 import img2 from "../../Assets/img/MENOUTLINE2.webp";
 import logo from "../../Assets/img/Logo.png";
+import imgIG from "../../Assets/img/Vectoro.png";
 
 function MenuOverlay({ isOpen, onClose }) {
     return (
@@ -91,7 +92,7 @@ function MenuOverlay({ isOpen, onClose }) {
                 </div>
 
             </div>
-
+<img src={imgIG} className='imgIG' />
         </div>
     );
 }

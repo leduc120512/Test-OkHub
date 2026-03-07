@@ -5,6 +5,8 @@ import "../../../Assets/css/Life.css";
 import life1 from "../../../Assets/img/life.png";               // nhân viên
 import life2 from "../../../Assets/img/Su-menh-voi-khach-hang.webp"; // khách hàng
           // cộng đồng (thay bằng ảnh thật)
+import Union from "../../../Assets/img/Union.png"; // khách hàng
+
 import life_icon from "../../../Assets/img/life_Vector.png";
 import life_icon2 from "../../../Assets/img/life_Switch.png";
 
@@ -60,6 +62,7 @@ function Life() {
 
     return (
         <section ref={sectionRef} className={`life ${show ? "show" : ""}`}>
+
             <div className="life-header">
                 <p className="life-sub">• SỨ MỆNH •</p>
                 <h2 className="life-title">
@@ -123,6 +126,7 @@ function Life() {
                     />
                 </div>
             </div>
+            <img src={Union}  className='UNION'/>
         </section>
     );
 }

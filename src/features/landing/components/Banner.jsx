@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import "../../../Assets/css/Banner.css";
 
 import Bg from "../../../Assets/img/banner.png";
+// import bgImage from "../../../Assets/img/banner.png";
 import Header from "../../../components/layout/header";
-
+import CircleBanner from "../../../Assets/img/Vector (1).png";
+import SnakeBanner from "../../../Assets/img/Vector (2).svg";
 export default function Banner() {
 
     const [scrollY, setScrollY] = useState(0);
@@ -46,6 +48,8 @@ export default function Banner() {
                     </span>
                 </h1>
             </div>
+            <img src={CircleBanner} className="circle-banner" alt="" />
+            <img src={SnakeBanner} className="snake-banner" alt="" />
 
         </div>
     );

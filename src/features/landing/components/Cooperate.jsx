@@ -26,6 +26,11 @@ import logo10 from "../../../Assets/img/logo_partner/section-doi-tac-tieu-bieu-i
 import logo11 from "../../../Assets/img/logo_partner/Vietcaplink.png";
 import logo12 from "../../../Assets/img/logo_partner/WATG.png";
 
+
+import imgIG from "../../../Assets/img/toro3.png";
+import Mask_group from "../../../Assets/img/Mask_group.png";
+
+
 function PartnerSection() {
 
     const ref = useRef(null);
@@ -162,7 +167,8 @@ là chìa khóa giúp thế hệ trẻ phát triển toàn diện trong tương 
                     </div>
 
                 </div>
-
+                <img src={imgIG} className='cooperate-imgig cooperate-imgig-p' alt="" />
+                <img className='cooperate-imgig cooperate-imgig-p2'  src={Mask_group} />
             </section>
 
             {/* PARTNER LOGO */}

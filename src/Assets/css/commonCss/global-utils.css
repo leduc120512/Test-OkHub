@@ -1,0 +1,241 @@
+/* =========================
+   ROOT VARIABLES (MÀU CHỦ ĐẠO)
+========================= */
+
+:root{
+
+    --primary-blue:#328AE2;
+    --primary-red:#FF0D39;
+
+    --dark-blue:#102A4D;
+    --deep-blue:#191868;
+
+    --white:#ffffff;
+    --black:#000000;
+
+    --gradient-main:linear-gradient(91.78deg,#328AE2 13.28%,#FF0D39 91.27%);
+}
+
+
+/* =========================
+   BACKGROUND
+========================= */
+
+.bg-primary{
+    background:var(--primary-blue);
+}
+
+.bg-red{
+    background:var(--primary-red);
+}
+
+.bg-dark{
+    background:var(--dark-blue);
+}
+
+.bg-gradient{
+    background:var(--gradient-main);
+}
+
+.bg-cover{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+
+/* =========================
+   TEXT COLOR
+========================= */
+
+.text-white{ color:#fff; }
+.text-black{ color:#000; }
+
+.text-blue{ color:var(--primary-blue); }
+.text-red{ color:var(--primary-red); }
+
+
+/* =========================
+   FLEX
+========================= */
+
+.flex{ display:flex; }
+
+.flex-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.flex-between{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.flex-column{
+    display:flex;
+    flex-direction:column;
+}
+
+.flex-wrap{
+    flex-wrap:wrap;
+}
+
+
+/* =========================
+   POSITION
+========================= */
+
+.relative{ position:relative; }
+.absolute{ position:absolute; }
+.fixed{ position:fixed; }
+
+.top-0{ top:0; }
+.bottom-0{ bottom:0; }
+.left-0{ left:0; }
+.right-0{ right:0; }
+
+.center-absolute{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+/* =========================
+   WIDTH HEIGHT
+========================= */
+
+.w-100{ width:100%; }
+.w-50{ width:50%; }
+.w-25{ width:25%; }
+
+.h-100{ height:100%; }
+
+.full-screen{
+    width:100%;
+    height:100vh;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+
+.text-center{ text-align:center; }
+
+.bold{ font-weight:700; }
+.medium{ font-weight:500; }
+
+.fs-14{ font-size:14px; }
+.fs-18{ font-size:18px; }
+.fs-24{ font-size:24px; }
+.fs-32{ font-size:32px; }
+.fs-48{ font-size:48px; }
+
+
+/* =========================
+   MARGIN
+========================= */
+
+.mt-10{ margin-top:10px; }
+.mt-20{ margin-top:20px; }
+.mt-40{ margin-top:40px; }
+
+.mb-10{ margin-bottom:10px; }
+.mb-20{ margin-bottom:20px; }
+
+.ml-10{ margin-left:10px; }
+.mr-10{ margin-right:10px; }
+
+
+/* =========================
+   PADDING
+========================= */
+
+.p-10{ padding:10px; }
+.p-20{ padding:20px; }
+
+.pt-20{ padding-top:20px; }
+.pb-20{ padding-bottom:20px; }
+
+.pl-20{ padding-left:20px; }
+.pr-20{ padding-right:20px; }
+
+
+/* =========================
+   BORDER
+========================= */
+
+.round{ border-radius:50%; }
+
+.radius-10{ border-radius:10px; }
+.radius-20{ border-radius:20px; }
+.radius-40{ border-radius:40px; }
+
+
+/* =========================
+   SHADOW
+========================= */
+
+.shadow-sm{
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.shadow-md{
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.shadow-lg{
+    box-shadow:0 20px 60px rgba(0,0,0,0.3);
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.btn{
+    padding:12px 32px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    transition:all .3s ease;
+}
+
+.btn-gradient{
+    background:var(--gradient-main);
+    color:white;
+}
+
+.btn-gradient:hover{
+    transform:scale(1.05);
+}
+
+
+/* =========================
+   HOVER EFFECT
+========================= */
+
+.pointer{ cursor:pointer; }
+
+.scale-hover{
+    transition:transform .3s ease;
+}
+
+.scale-hover:hover{
+    transform:scale(1.1);
+}
+
+
+/* =========================
+   Z INDEX
+========================= */
+
+.z-1{ z-index:1; }
+.z-5{ z-index:5; }
+.z-10{ z-index:10; }
+.z-50{ z-index:50; }
+.z-100{ z-index:100; }

@@ -13,7 +13,23 @@
     );
 }
 
+.cooperate-imgig{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
 
+}
+.cooperate-imgig-p{
+    top: 44px;
+    left: 0;
+    width: 65%;
+}
+.cooperate-imgig-p2{
+    top: -38px;
+    width: 49%;
+    left: 821px;
+}
 /* gradient wave */
 
 .partner-wave{

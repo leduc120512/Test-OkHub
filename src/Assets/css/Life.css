@@ -1,7 +1,14 @@
 .life{
     padding:40px 0;
+    position: relative;
+
 }
 
+.UNION{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .life-header{
     text-align:center;
     margin-bottom:50px;

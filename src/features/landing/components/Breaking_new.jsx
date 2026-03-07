@@ -7,6 +7,9 @@ import news3 from "../../../Assets/img/logo_partner/partner.png";
 import people from "../../../Assets/img/divwow.png";
 import RippleButton from "../../../components/common/Button";
 
+import Mask_group from "../../../Assets/img/Mask_group.png";
+import Ellipse from "../../../Assets/img/Ellipse 2133.png";
+
 function NewsSection() {
 
     const newsRef = useRef(null);
@@ -171,7 +174,8 @@ function NewsSection() {
                     </RippleButton>
 
                 </div>
-
+                <img className='news-btn-mask mark'  src={Mask_group} />
+                <img className='absolute news-btn-Ellipse'  src={Ellipse} />
             </section>
 
 

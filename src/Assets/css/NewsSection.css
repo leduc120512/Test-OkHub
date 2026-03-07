@@ -14,6 +14,18 @@
     padding-bottom: 70px;
     justify-content: center;
 }
+.news-btn-mask{
+    position: absolute;
+    bottom: 63px;
+    left: -138px;
+    width: 46%;
+}
+.news-btn-Ellipse{
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+}
 .layout2{
     position:absolute;
     background: linear-gradient(90deg, #F4475C 0%, #8E2A36 100%);

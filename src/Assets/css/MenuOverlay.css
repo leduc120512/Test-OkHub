@@ -20,7 +20,14 @@
     visibility: visible;
     pointer-events: auto;
 }
-
+.imgIG{
+    position: absolute;
+    top: 58%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    width: 53%;
+    z-index: 10000;
+}
 
 /* HEADER */
 
@@ -237,6 +244,14 @@
         img{
             width: 100px;
         }
+
+    }
+    .imgIG{
+
+        top: 58%;
+        left: 26%;
+        transform: translate(-68%, 11%);
+        width: 105%;
 
     }
     .menu-text{
