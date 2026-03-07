@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "../../../Assets/css/Vision.css";
 import visionLt from "../../../Assets/img/visionLt.png";
-import visionMobile from "../../../Assets/img/aboutmobile.png";
+import visionMobile from "../../../Assets/img/intermilan.png";
 
 function Vision() {
 

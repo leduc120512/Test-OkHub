@@ -1,7 +1,7 @@
 .about {
     position: relative;
     width: 100%;
-    height: 100vh;
+
 
     background-image: var(--bg-desktop);
     background-size: cover;
@@ -124,16 +124,16 @@
 
     .about-layout2 {
 
-        bottom: -55px;
+        bottom: -9px;
         left: 0;
-        height: 200px;
-
+        height: 150px;
 
     }
     .about-layout1 {
 
-        bottom: -71px;
+        bottom: -23px;
         left: 0;
+        height: 100px;
 
 
 
