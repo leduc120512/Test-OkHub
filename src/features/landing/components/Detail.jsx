@@ -6,6 +6,7 @@ import detail_two from "../../../Assets/img/detail_two.png";
 import defaultImg from "../../../Assets/img/logo-blue.svg";
 import detailbackground from "../../../Assets/img/detailbackground.png";
 import circleMain from "../../../Assets/img/bordermaincircle.png";
+import RippleButton from "../../../components/common/Button";
 function Investment() {
 
     const [image, setImage] = useState(detail_one);
@@ -92,7 +93,7 @@ function Investment() {
 
                         <img className="circle-logo" src={defaultImg} />
 
-                        <h3>Ami&M</h3>
+                        <h3 className='investment-dte'>Ami&M <p className='none-circle-tt'> Investment</p></h3>
 
                         <p className="circle-sub">Training</p>
 
@@ -102,9 +103,9 @@ function Investment() {
                             CHUỖI CƠ SỞ LƯU TRÚ.
                         </p>
 
-                        <button className="circle-btn-more">
+                        <RippleButton className="circle-btn-more">
                             Tìm hiểu thêm →
-                        </button>
+                        </RippleButton>
                         {/*<img src={circleMain} className='border-main-circle' />*/}
                     </div>
 

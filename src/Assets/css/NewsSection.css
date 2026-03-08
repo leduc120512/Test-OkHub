@@ -100,7 +100,7 @@
     background:transparent;
     color:white;
     cursor:pointer;
-    transition:.3s;
+    transition:.3s;z-index: 2;
 }
 
 .news-btn:hover{

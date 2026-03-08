@@ -68,6 +68,11 @@ detail :"Hoạt động nội bộ tăng cường văn hóa doanh nghiệp",
             detail :"Ami&M tổ chức hội thảo phát triển kỹ năng cho sinh viên",
             title: "Hoạt động nội bộ tăng cường văn hóa doanh nghiệp",
             date: "10/12/2023"
+        }, {
+            image: news1,
+            detail :"Ami&M tổ chức hội thảo phát triển kỹ năng cho sinh viên",
+            title: "Hoạt động nội bộ tăng cường văn hóa doanh nghiệp",
+            date: "10/12/2023"
         }
     ];
 
@@ -120,7 +125,7 @@ detail :"Hoạt động nội bộ tăng cường văn hóa doanh nghiệp",
                         </p>
 
                         <RippleButton  className="news-btn desktop-btn">
-                            Xem tất cả →
+                                Xem tất cả →
                         </RippleButton>
 
                     </div>

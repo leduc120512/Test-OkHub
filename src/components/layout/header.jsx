@@ -73,6 +73,7 @@ export default function Header({ scale, opacity, menuOpen, setMenuOpen }) {
                         opacity: opacity
                     }}
                     alt="Logo"
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                 />
 
                 <div className="header-right">
